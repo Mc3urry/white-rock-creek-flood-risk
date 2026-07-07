@@ -1,0 +1,42 @@
+WHITE ROCK CREEK FLOOD RISK ASSESSMENT
+Project Metadata
+Generated: 2026-06-28
+==================================================
+
+Author: Joshua McCulley
+Institution: The University of Texas at Dallas
+Projection: NAD83 State Plane TX North Central (FIPS 4202 / EPSG 2276)
+Study area: White Rock Creek Watershed, Dallas County, TX
+Drainage area: 85.5 sq mi (54,696 ac)
+
+Feature classes in geodatabase:
+  BaseData/FC_Buildings (731757 features)
+  BaseData/FC_Buildings_WS (110168 features)
+  Hydrology/FC_Streams (2226 features)
+  Hydrology/FC_Waterbodies (1 features)
+  Hydrology/FC_Streams_Derived (53576 features)
+  Hydrology/FC_Streams_WS (419 features)
+  Infrastructure/FC_Roads (40455 features)
+  Infrastructure/FC_Hospitals (43 features)
+  Infrastructure/FC_FireStations (132 features)
+  Infrastructure/FC_PoliceStations (47 features)
+  Infrastructure/FC_Schools (765 features)
+  Infrastructure/FC_Roads_WS (5402 features)
+  Infrastructure/FC_Hospitals_WS (11 features)
+  Infrastructure/FC_FireStations_WS (16 features)
+  Infrastructure/FC_PoliceStations_WS (5 features)
+  Infrastructure/FC_Schools_WS (101 features)
+  Demographics/FC_BlockGroups (1570 features)
+  Demographics/FC_BlockGroups_WS (362 features)
+  FloodHazards/FC_FEMA_FloodZones (13525 features)
+  FloodHazards/FC_FEMA_FloodZones_WS (2947 features)
+  FloodHazards/FloodExtent_10yr (67740 features)
+  FloodHazards/FloodExtent_50yr (68511 features)
+  FloodHazards/FloodExtent_100yr (68326 features)
+  FloodHazards/FloodExtent_500yr (67803 features)
+  FloodHazards/FloodExtent_100yr_Dissolved (1 features)
+  Analysis/PourPoint (1 features)
+  Analysis/FC_Watershed_Boundary (2 features)
+  Analysis/Roads_Flooded_100yr (19818 features)
+  Analysis/FloodHazard_Polygons_100yr (363857 features)
+  Analysis/MitigationPriority_Polygons (91977 features)

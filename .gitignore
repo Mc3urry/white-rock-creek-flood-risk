@@ -1,0 +1,76 @@
+# ============================================
+# White Rock Creek Flood Risk Assessment
+# .gitignore
+# ============================================
+
+# --- Ignore the entire Data folder (rasters, GDB, HEC-RAS, all sidecars) ---
+Data/
+HECRAS/
+*.gdb/
+
+# --- All raster formats and their sidecars ---
+*.tif
+*.tiff
+*.tfw
+*.tif.aux.xml
+*.tif.ovr
+*.tif.xml
+*.img
+*.asc
+*.dem
+*.las
+*.laz
+*.hdf
+*.h5
+*.aux.xml
+*.ovr
+*.rrd
+
+# --- HEC-RAS model files ---
+*.prj
+*.p[0-9][0-9]
+*.g[0-9][0-9]
+*.u[0-9][0-9]
+*.x[0-9][0-9]
+*.c[0-9][0-9]
+*.b[0-9][0-9]
+*.dss
+*.rasmap
+*.bco[0-9][0-9]
+*.hyd[0-9][0-9]
+*.g[0-9][0-9].hdf
+*.p[0-9][0-9].hdf
+
+# --- Shapefile sidecars ---
+*.shp
+*.shx
+*.dbf
+*.sbn
+*.sbx
+*.cpg
+*.prj
+*.shp.xml
+
+# --- ArcGIS scratch / lock / temp ---
+*.lock
+*.tmp
+*.atbx
+scratch.gdb/
+Index/
+*.aprx.bak
+
+# --- Notebooks / checkpoints ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- OneDrive / OS cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+env/

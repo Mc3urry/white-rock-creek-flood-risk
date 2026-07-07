@@ -1,0 +1,639 @@
+Dataset,Feature Class,Field,Type,Length,Alias
+BaseData,FC_Buildings,OBJECTID,ObjectID,4,OBJECTID
+BaseData,FC_Buildings,Shape,Geometry,0,Shape
+BaseData,FC_Buildings,BUILD_ID,Long,4,BUILD_ID
+BaseData,FC_Buildings,OCC_CLS,Text,20,OCC_CLS
+BaseData,FC_Buildings,PRIM_OCC,Text,35,PRIM_OCC
+BaseData,FC_Buildings,SEC_OCC,Text,13,SEC_OCC
+BaseData,FC_Buildings,PROP_ADDR,Text,80,PROP_ADDR
+BaseData,FC_Buildings,PROP_CITY,Text,50,PROP_CITY
+BaseData,FC_Buildings,PROP_ST,Text,50,PROP_ST
+BaseData,FC_Buildings,PROP_ZIP,Text,50,PROP_ZIP
+BaseData,FC_Buildings,OUTBLDG,Text,13,OUTBLDG
+BaseData,FC_Buildings,HEIGHT,Float,4,HEIGHT
+BaseData,FC_Buildings,SQMETERS,Float,4,SQMETERS
+BaseData,FC_Buildings,SQFEET,Float,4,SQFEET
+BaseData,FC_Buildings,H_ADJ_ELEV,Float,4,H_ADJ_ELEV
+BaseData,FC_Buildings,L_ADJ_ELEV,Float,4,L_ADJ_ELEV
+BaseData,FC_Buildings,FIPS,Text,13,FIPS
+BaseData,FC_Buildings,CENSUSCODE,Text,20,CENSUSCODE
+BaseData,FC_Buildings,PROD_DATE,Date,8,PROD_DATE
+BaseData,FC_Buildings,SOURCE,Text,50,SOURCE
+BaseData,FC_Buildings,USNG,Text,50,USNG
+BaseData,FC_Buildings,LONGITUDE,Double,8,LONGITUDE
+BaseData,FC_Buildings,LATITUDE,Double,8,LATITUDE
+BaseData,FC_Buildings,IMAGE_NAME,Text,50,IMAGE_NAME
+BaseData,FC_Buildings,IMAGE_DATE,Date,8,IMAGE_DATE
+BaseData,FC_Buildings,VAL_METHOD,Text,50,VAL_METHOD
+BaseData,FC_Buildings,REMARKS,Text,500,REMARKS
+BaseData,FC_Buildings,UUID,Text,50,UUID
+BaseData,FC_Buildings,STATE_FIPS,Text,255,STATE_FIPS
+BaseData,FC_Buildings,B_CODE,Text,255,B_CODE
+BaseData,FC_Buildings,POP_MEDIAN,Long,4,POP_MEDIAN
+BaseData,FC_Buildings,PROP_CNTY,Text,255,PROP_CNTY
+BaseData,FC_Buildings,GlobalID,Text,38,GlobalID
+BaseData,FC_Buildings,POP_CI95_LOWER,Long,4,POP_CI95_LOWER
+BaseData,FC_Buildings,POP_CI95_UPPER,Long,4,POP_CI95_UPPER
+BaseData,FC_Buildings,BLDG_ID,Long,4,Building ID
+BaseData,FC_Buildings,BLDG_TYPE,Text,50,Building Type
+BaseData,FC_Buildings,AREA_SQFT,Double,8,Building Area (sq ft)
+BaseData,FC_Buildings,EXPOSED_10YR,Text,20,Exposed 10-Year Flood
+BaseData,FC_Buildings,EXPOSED_50YR,Text,20,Exposed 50-Year Flood
+BaseData,FC_Buildings,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+BaseData,FC_Buildings,EXPOSED_500YR,Text,20,Exposed 500-Year Flood
+BaseData,FC_Buildings,DEPTH_100YR,Double,8,Flood Depth 100-Year (ft)
+BaseData,FC_Buildings,DEPTH_CLASS,Text,20,Depth Classification
+BaseData,FC_Buildings,HAZARD_CLASS,Text,20,Hazard Classification
+BaseData,FC_Buildings,RISK_INDEX,Double,8,Flood Risk Index Score
+BaseData,FC_Buildings_WS,OBJECTID,ObjectID,4,OBJECTID
+BaseData,FC_Buildings_WS,Shape,Geometry,0,Shape
+BaseData,FC_Buildings_WS,BUILD_ID,Long,4,BUILD_ID
+BaseData,FC_Buildings_WS,OCC_CLS,Text,20,OCC_CLS
+BaseData,FC_Buildings_WS,PRIM_OCC,Text,35,PRIM_OCC
+BaseData,FC_Buildings_WS,SEC_OCC,Text,13,SEC_OCC
+BaseData,FC_Buildings_WS,PROP_ADDR,Text,80,PROP_ADDR
+BaseData,FC_Buildings_WS,PROP_CITY,Text,50,PROP_CITY
+BaseData,FC_Buildings_WS,PROP_ST,Text,50,PROP_ST
+BaseData,FC_Buildings_WS,PROP_ZIP,Text,50,PROP_ZIP
+BaseData,FC_Buildings_WS,OUTBLDG,Text,13,OUTBLDG
+BaseData,FC_Buildings_WS,HEIGHT,Float,4,HEIGHT
+BaseData,FC_Buildings_WS,SQMETERS,Float,4,SQMETERS
+BaseData,FC_Buildings_WS,SQFEET,Float,4,SQFEET
+BaseData,FC_Buildings_WS,H_ADJ_ELEV,Float,4,H_ADJ_ELEV
+BaseData,FC_Buildings_WS,L_ADJ_ELEV,Float,4,L_ADJ_ELEV
+BaseData,FC_Buildings_WS,FIPS,Text,13,FIPS
+BaseData,FC_Buildings_WS,CENSUSCODE,Text,20,CENSUSCODE
+BaseData,FC_Buildings_WS,PROD_DATE,Date,8,PROD_DATE
+BaseData,FC_Buildings_WS,SOURCE,Text,50,SOURCE
+BaseData,FC_Buildings_WS,USNG,Text,50,USNG
+BaseData,FC_Buildings_WS,LONGITUDE,Double,8,LONGITUDE
+BaseData,FC_Buildings_WS,LATITUDE,Double,8,LATITUDE
+BaseData,FC_Buildings_WS,IMAGE_NAME,Text,50,IMAGE_NAME
+BaseData,FC_Buildings_WS,IMAGE_DATE,Date,8,IMAGE_DATE
+BaseData,FC_Buildings_WS,VAL_METHOD,Text,50,VAL_METHOD
+BaseData,FC_Buildings_WS,REMARKS,Text,500,REMARKS
+BaseData,FC_Buildings_WS,UUID,Text,50,UUID
+BaseData,FC_Buildings_WS,STATE_FIPS,Text,255,STATE_FIPS
+BaseData,FC_Buildings_WS,B_CODE,Text,255,B_CODE
+BaseData,FC_Buildings_WS,POP_MEDIAN,Long,4,POP_MEDIAN
+BaseData,FC_Buildings_WS,PROP_CNTY,Text,255,PROP_CNTY
+BaseData,FC_Buildings_WS,GlobalID,Text,38,GlobalID
+BaseData,FC_Buildings_WS,POP_CI95_LOWER,Long,4,POP_CI95_LOWER
+BaseData,FC_Buildings_WS,POP_CI95_UPPER,Long,4,POP_CI95_UPPER
+BaseData,FC_Buildings_WS,BLDG_ID,Long,4,Building ID
+BaseData,FC_Buildings_WS,BLDG_TYPE,Text,50,Building Type
+BaseData,FC_Buildings_WS,AREA_SQFT,Double,8,Building Area (sq ft)
+BaseData,FC_Buildings_WS,EXPOSED_10YR,Text,20,Exposed 10-Year Flood
+BaseData,FC_Buildings_WS,EXPOSED_50YR,Text,20,Exposed 50-Year Flood
+BaseData,FC_Buildings_WS,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+BaseData,FC_Buildings_WS,EXPOSED_500YR,Text,20,Exposed 500-Year Flood
+BaseData,FC_Buildings_WS,DEPTH_100YR,Double,8,Flood Depth 100-Year (ft)
+BaseData,FC_Buildings_WS,DEPTH_CLASS,Text,20,Depth Classification
+BaseData,FC_Buildings_WS,HAZARD_CLASS,Text,20,Hazard Classification
+BaseData,FC_Buildings_WS,RISK_INDEX,Double,8,Flood Risk Index Score
+BaseData,FC_Buildings_WS,DEPTH_TMP_1,Float,4,DEPTH_TMP_1
+Hydrology,FC_Streams,OBJECTID,ObjectID,4,OBJECTID
+Hydrology,FC_Streams,Shape,Geometry,0,Shape
+Hydrology,FC_Streams,permanent_,Text,40,permanent_
+Hydrology,FC_Streams,fdate,Date,8,fdate
+Hydrology,FC_Streams,resolution,Long,4,resolution
+Hydrology,FC_Streams,gnis_id,Text,10,gnis_id
+Hydrology,FC_Streams,gnis_name,Text,65,gnis_name
+Hydrology,FC_Streams,lengthkm,Double,8,lengthkm
+Hydrology,FC_Streams,reachcode,Text,14,reachcode
+Hydrology,FC_Streams,flowdir,Long,4,flowdir
+Hydrology,FC_Streams,wbarea_per,Text,40,wbarea_per
+Hydrology,FC_Streams,ftype,Long,4,ftype
+Hydrology,FC_Streams,fcode,Long,4,fcode
+Hydrology,FC_Streams,mainpath,Long,4,mainpath
+Hydrology,FC_Streams,innetwork,Long,4,innetwork
+Hydrology,FC_Streams,visibility,Long,4,visibility
+Hydrology,FC_Streams,SHAPE_Leng,Double,8,SHAPE_Leng
+Hydrology,FC_Streams,Enabled,Long,4,Enabled
+Hydrology,FC_Streams,d_resoluti,Text,254,d_resoluti
+Hydrology,FC_Streams,d_flowdir,Text,254,d_flowdir
+Hydrology,FC_Streams,d_ftype,Text,254,d_ftype
+Hydrology,FC_Streams,d_fcode,Text,254,d_fcode
+Hydrology,FC_Streams,d_mainpath,Text,254,d_mainpath
+Hydrology,FC_Streams,d_innetwor,Text,254,d_innetwor
+Hydrology,FC_Streams,d_visibili,Text,254,d_visibili
+Hydrology,FC_Streams,d_Enabled,Text,254,d_Enabled
+Hydrology,FC_Streams,Shape_Length,Double,8,Shape_Length
+Hydrology,FC_Waterbodies,OBJECTID,ObjectID,4,OBJECTID
+Hydrology,FC_Waterbodies,Shape,Geometry,0,Shape
+Hydrology,FC_Waterbodies,permanent_,Text,40,permanent_
+Hydrology,FC_Waterbodies,fdate,Date,8,fdate
+Hydrology,FC_Waterbodies,resolution,Long,4,resolution
+Hydrology,FC_Waterbodies,gnis_id,Text,10,gnis_id
+Hydrology,FC_Waterbodies,gnis_name,Text,65,gnis_name
+Hydrology,FC_Waterbodies,areasqkm,Double,8,areasqkm
+Hydrology,FC_Waterbodies,elevation,Double,8,elevation
+Hydrology,FC_Waterbodies,reachcode,Text,14,reachcode
+Hydrology,FC_Waterbodies,ftype,Long,4,ftype
+Hydrology,FC_Waterbodies,fcode,Long,4,fcode
+Hydrology,FC_Waterbodies,visibility,Long,4,visibility
+Hydrology,FC_Waterbodies,SHAPE_Leng,Double,8,SHAPE_Leng
+Hydrology,FC_Waterbodies,Shape_Length,Double,8,Shape_Length
+Hydrology,FC_Waterbodies,Shape_Area,Double,8,Shape_Area
+Hydrology,FC_Streams_Derived,OBJECTID,ObjectID,4,OBJECTID
+Hydrology,FC_Streams_Derived,Shape,Geometry,0,Shape
+Hydrology,FC_Streams_Derived,arcid,Long,4,arcid
+Hydrology,FC_Streams_Derived,grid_code,Long,4,grid_code
+Hydrology,FC_Streams_Derived,from_node,Long,4,from_node
+Hydrology,FC_Streams_Derived,to_node,Long,4,to_node
+Hydrology,FC_Streams_Derived,Shape_Length,Double,8,Shape_Length
+Hydrology,FC_Streams_WS,OBJECTID,ObjectID,4,OBJECTID
+Hydrology,FC_Streams_WS,Shape,Geometry,0,Shape
+Hydrology,FC_Streams_WS,permanent_,Text,40,permanent_
+Hydrology,FC_Streams_WS,fdate,Date,8,fdate
+Hydrology,FC_Streams_WS,resolution,Long,4,resolution
+Hydrology,FC_Streams_WS,gnis_id,Text,10,gnis_id
+Hydrology,FC_Streams_WS,gnis_name,Text,65,gnis_name
+Hydrology,FC_Streams_WS,lengthkm,Double,8,lengthkm
+Hydrology,FC_Streams_WS,reachcode,Text,14,reachcode
+Hydrology,FC_Streams_WS,flowdir,Long,4,flowdir
+Hydrology,FC_Streams_WS,wbarea_per,Text,40,wbarea_per
+Hydrology,FC_Streams_WS,ftype,Long,4,ftype
+Hydrology,FC_Streams_WS,fcode,Long,4,fcode
+Hydrology,FC_Streams_WS,mainpath,Long,4,mainpath
+Hydrology,FC_Streams_WS,innetwork,Long,4,innetwork
+Hydrology,FC_Streams_WS,visibility,Long,4,visibility
+Hydrology,FC_Streams_WS,SHAPE_Leng,Double,8,SHAPE_Leng
+Hydrology,FC_Streams_WS,Enabled,Long,4,Enabled
+Hydrology,FC_Streams_WS,d_resoluti,Text,254,d_resoluti
+Hydrology,FC_Streams_WS,d_flowdir,Text,254,d_flowdir
+Hydrology,FC_Streams_WS,d_ftype,Text,254,d_ftype
+Hydrology,FC_Streams_WS,d_fcode,Text,254,d_fcode
+Hydrology,FC_Streams_WS,d_mainpath,Text,254,d_mainpath
+Hydrology,FC_Streams_WS,d_innetwor,Text,254,d_innetwor
+Hydrology,FC_Streams_WS,d_visibili,Text,254,d_visibili
+Hydrology,FC_Streams_WS,d_Enabled,Text,254,d_Enabled
+Hydrology,FC_Streams_WS,Shape_Length,Double,8,Shape_Length
+Infrastructure,FC_Roads,OBJECTID,ObjectID,4,OBJECTID
+Infrastructure,FC_Roads,Shape,Geometry,0,Shape
+Infrastructure,FC_Roads,LINEARID,Text,22,LINEARID
+Infrastructure,FC_Roads,FULLNAME,Text,100,FULLNAME
+Infrastructure,FC_Roads,RTTYP,Text,1,RTTYP
+Infrastructure,FC_Roads,MTFCC,Text,5,MTFCC
+Infrastructure,FC_Roads,Shape_Length,Double,8,Shape_Length
+Infrastructure,FC_Roads,ROAD_CLASS,Text,20,Road Classification
+Infrastructure,FC_Roads,LENGTH_FT,Double,8,Length (feet)
+Infrastructure,FC_Roads,LENGTH_MI,Double,8,Length (miles)
+Infrastructure,FC_Roads,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+Infrastructure,FC_Roads,FLOOD_DEPTH,Double,8,Max Flood Depth (ft)
+Infrastructure,FC_Hospitals,OBJECTID,ObjectID,4,OBJECTID
+Infrastructure,FC_Hospitals,Shape,Geometry,0,Shape
+Infrastructure,FC_Hospitals,PERMANENT_,Text,40,PERMANENT_
+Infrastructure,FC_Hospitals,SOURCE_FEA,Text,40,SOURCE_FEA
+Infrastructure,FC_Hospitals,SOURCE_DAT,Text,40,SOURCE_DAT
+Infrastructure,FC_Hospitals,SOURCE_D_1,Text,100,SOURCE_D_1
+Infrastructure,FC_Hospitals,SOURCE_ORI,Text,130,SOURCE_ORI
+Infrastructure,FC_Hospitals,DATA_SECUR,Long,4,DATA_SECUR
+Infrastructure,FC_Hospitals,DISTRIBUTI,Text,4,DISTRIBUTI
+Infrastructure,FC_Hospitals,LOADDATE,Date,8,LOADDATE
+Infrastructure,FC_Hospitals,FTYPE,Long,4,FTYPE
+Infrastructure,FC_Hospitals,FCODE,Long,4,FCODE
+Infrastructure,FC_Hospitals,NAME,Text,100,NAME
+Infrastructure,FC_Hospitals,ISLANDMARK,Long,4,ISLANDMARK
+Infrastructure,FC_Hospitals,POINTLOCAT,Long,4,POINTLOCAT
+Infrastructure,FC_Hospitals,ADMINTYPE,Long,4,ADMINTYPE
+Infrastructure,FC_Hospitals,ADDRESSBUI,Text,60,ADDRESSBUI
+Infrastructure,FC_Hospitals,ADDRESS,Text,75,ADDRESS
+Infrastructure,FC_Hospitals,CITY,Text,40,CITY
+Infrastructure,FC_Hospitals,STATE,Text,2,STATE
+Infrastructure,FC_Hospitals,ZIPCODE,Text,10,ZIPCODE
+Infrastructure,FC_Hospitals,GNIS_ID,Text,10,GNIS_ID
+Infrastructure,FC_Hospitals,FOOT_ID,Text,40,FOOT_ID
+Infrastructure,FC_Hospitals,COMPLEX_ID,Text,40,COMPLEX_ID
+Infrastructure,FC_Hospitals,GLOBALID,Text,38,GLOBALID
+Infrastructure,FC_Hospitals,FAC_TYPE,Text,20,Facility Type
+Infrastructure,FC_Hospitals,FAC_NAME,Text,100,Facility Name
+Infrastructure,FC_Hospitals,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+Infrastructure,FC_Hospitals,DEPTH_100YR,Double,8,Flood Depth 100-Year (ft)
+Infrastructure,FC_Hospitals,HAZARD_CLASS,Text,20,Hazard Classification
+Infrastructure,FC_Hospitals,PRIORITY,Text,20,Mitigation Priority
+Infrastructure,FC_FireStations,OBJECTID,ObjectID,4,OBJECTID
+Infrastructure,FC_FireStations,Shape,Geometry,0,Shape
+Infrastructure,FC_FireStations,PERMANENT_,Text,40,PERMANENT_
+Infrastructure,FC_FireStations,SOURCE_FEA,Text,40,SOURCE_FEA
+Infrastructure,FC_FireStations,SOURCE_DAT,Text,40,SOURCE_DAT
+Infrastructure,FC_FireStations,SOURCE_D_1,Text,100,SOURCE_D_1
+Infrastructure,FC_FireStations,SOURCE_ORI,Text,130,SOURCE_ORI
+Infrastructure,FC_FireStations,DATA_SECUR,Long,4,DATA_SECUR
+Infrastructure,FC_FireStations,DISTRIBUTI,Text,4,DISTRIBUTI
+Infrastructure,FC_FireStations,LOADDATE,Date,8,LOADDATE
+Infrastructure,FC_FireStations,FTYPE,Long,4,FTYPE
+Infrastructure,FC_FireStations,FCODE,Long,4,FCODE
+Infrastructure,FC_FireStations,NAME,Text,100,NAME
+Infrastructure,FC_FireStations,ISLANDMARK,Long,4,ISLANDMARK
+Infrastructure,FC_FireStations,POINTLOCAT,Long,4,POINTLOCAT
+Infrastructure,FC_FireStations,ADMINTYPE,Long,4,ADMINTYPE
+Infrastructure,FC_FireStations,ADDRESSBUI,Text,60,ADDRESSBUI
+Infrastructure,FC_FireStations,ADDRESS,Text,75,ADDRESS
+Infrastructure,FC_FireStations,CITY,Text,40,CITY
+Infrastructure,FC_FireStations,STATE,Text,2,STATE
+Infrastructure,FC_FireStations,ZIPCODE,Text,10,ZIPCODE
+Infrastructure,FC_FireStations,GNIS_ID,Text,10,GNIS_ID
+Infrastructure,FC_FireStations,FOOT_ID,Text,40,FOOT_ID
+Infrastructure,FC_FireStations,COMPLEX_ID,Text,40,COMPLEX_ID
+Infrastructure,FC_FireStations,GLOBALID,Text,38,GLOBALID
+Infrastructure,FC_FireStations,FAC_TYPE,Text,20,Facility Type
+Infrastructure,FC_FireStations,FAC_NAME,Text,100,Facility Name
+Infrastructure,FC_FireStations,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+Infrastructure,FC_FireStations,DEPTH_100YR,Double,8,Flood Depth 100-Year (ft)
+Infrastructure,FC_FireStations,HAZARD_CLASS,Text,20,Hazard Classification
+Infrastructure,FC_FireStations,PRIORITY,Text,20,Mitigation Priority
+Infrastructure,FC_PoliceStations,OBJECTID,ObjectID,4,OBJECTID
+Infrastructure,FC_PoliceStations,Shape,Geometry,0,Shape
+Infrastructure,FC_PoliceStations,PERMANENT_,Text,40,PERMANENT_
+Infrastructure,FC_PoliceStations,SOURCE_FEA,Text,40,SOURCE_FEA
+Infrastructure,FC_PoliceStations,SOURCE_DAT,Text,40,SOURCE_DAT
+Infrastructure,FC_PoliceStations,SOURCE_D_1,Text,100,SOURCE_D_1
+Infrastructure,FC_PoliceStations,SOURCE_ORI,Text,130,SOURCE_ORI
+Infrastructure,FC_PoliceStations,DATA_SECUR,Long,4,DATA_SECUR
+Infrastructure,FC_PoliceStations,DISTRIBUTI,Text,4,DISTRIBUTI
+Infrastructure,FC_PoliceStations,LOADDATE,Date,8,LOADDATE
+Infrastructure,FC_PoliceStations,FTYPE,Long,4,FTYPE
+Infrastructure,FC_PoliceStations,FCODE,Long,4,FCODE
+Infrastructure,FC_PoliceStations,NAME,Text,100,NAME
+Infrastructure,FC_PoliceStations,ISLANDMARK,Long,4,ISLANDMARK
+Infrastructure,FC_PoliceStations,POINTLOCAT,Long,4,POINTLOCAT
+Infrastructure,FC_PoliceStations,ADMINTYPE,Long,4,ADMINTYPE
+Infrastructure,FC_PoliceStations,ADDRESSBUI,Text,60,ADDRESSBUI
+Infrastructure,FC_PoliceStations,ADDRESS,Text,75,ADDRESS
+Infrastructure,FC_PoliceStations,CITY,Text,40,CITY
+Infrastructure,FC_PoliceStations,STATE,Text,2,STATE
+Infrastructure,FC_PoliceStations,ZIPCODE,Text,10,ZIPCODE
+Infrastructure,FC_PoliceStations,GNIS_ID,Text,10,GNIS_ID
+Infrastructure,FC_PoliceStations,FOOT_ID,Text,40,FOOT_ID
+Infrastructure,FC_PoliceStations,COMPLEX_ID,Text,40,COMPLEX_ID
+Infrastructure,FC_PoliceStations,GLOBALID,Text,38,GLOBALID
+Infrastructure,FC_PoliceStations,FAC_TYPE,Text,20,Facility Type
+Infrastructure,FC_PoliceStations,FAC_NAME,Text,100,Facility Name
+Infrastructure,FC_PoliceStations,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+Infrastructure,FC_PoliceStations,DEPTH_100YR,Double,8,Flood Depth 100-Year (ft)
+Infrastructure,FC_PoliceStations,HAZARD_CLASS,Text,20,Hazard Classification
+Infrastructure,FC_PoliceStations,PRIORITY,Text,20,Mitigation Priority
+Infrastructure,FC_Schools,OBJECTID,ObjectID,4,OBJECTID
+Infrastructure,FC_Schools,Shape,Geometry,0,Shape
+Infrastructure,FC_Schools,NCESSCH,Text,12,NCESSCH
+Infrastructure,FC_Schools,LEAID,Text,7,LEAID
+Infrastructure,FC_Schools,NAME,Text,60,NAME
+Infrastructure,FC_Schools,OPSTFIPS,Text,2,OPSTFIPS
+Infrastructure,FC_Schools,STREET,Text,60,STREET
+Infrastructure,FC_Schools,CITY,Text,30,CITY
+Infrastructure,FC_Schools,STATE,Text,2,STATE
+Infrastructure,FC_Schools,ZIP,Text,5,ZIP
+Infrastructure,FC_Schools,STFIP,Text,2,STFIP
+Infrastructure,FC_Schools,CNTY,Text,5,CNTY
+Infrastructure,FC_Schools,NMCNTY,Text,100,NMCNTY
+Infrastructure,FC_Schools,LOCALE,Text,2,LOCALE
+Infrastructure,FC_Schools,LAT,Double,8,LAT
+Infrastructure,FC_Schools,LON,Double,8,LON
+Infrastructure,FC_Schools,CBSA,Text,5,CBSA
+Infrastructure,FC_Schools,NMCBSA,Text,100,NMCBSA
+Infrastructure,FC_Schools,CBSATYPE,Text,1,CBSATYPE
+Infrastructure,FC_Schools,CSA,Text,3,CSA
+Infrastructure,FC_Schools,NMCSA,Text,100,NMCSA
+Infrastructure,FC_Schools,CD,Text,4,CD
+Infrastructure,FC_Schools,SLDL,Text,5,SLDL
+Infrastructure,FC_Schools,SLDU,Text,5,SLDU
+Infrastructure,FC_Schools,SCHOOLYEAR,Text,9,SCHOOLYEAR
+Infrastructure,FC_Schools,FAC_TYPE,Text,20,Facility Type
+Infrastructure,FC_Schools,FAC_NAME,Text,100,Facility Name
+Infrastructure,FC_Schools,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+Infrastructure,FC_Schools,DEPTH_100YR,Double,8,Flood Depth 100-Year (ft)
+Infrastructure,FC_Schools,HAZARD_CLASS,Text,20,Hazard Classification
+Infrastructure,FC_Schools,PRIORITY,Text,20,Mitigation Priority
+Infrastructure,FC_Roads_WS,OBJECTID,ObjectID,4,OBJECTID
+Infrastructure,FC_Roads_WS,Shape,Geometry,0,Shape
+Infrastructure,FC_Roads_WS,LINEARID,Text,22,LINEARID
+Infrastructure,FC_Roads_WS,FULLNAME,Text,100,FULLNAME
+Infrastructure,FC_Roads_WS,RTTYP,Text,1,RTTYP
+Infrastructure,FC_Roads_WS,MTFCC,Text,5,MTFCC
+Infrastructure,FC_Roads_WS,ROAD_CLASS,Text,20,Road Classification
+Infrastructure,FC_Roads_WS,LENGTH_FT,Double,8,Length (feet)
+Infrastructure,FC_Roads_WS,LENGTH_MI,Double,8,Length (miles)
+Infrastructure,FC_Roads_WS,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+Infrastructure,FC_Roads_WS,FLOOD_DEPTH,Double,8,Max Flood Depth (ft)
+Infrastructure,FC_Roads_WS,Shape_Length,Double,8,Shape_Length
+Infrastructure,FC_Hospitals_WS,OBJECTID,ObjectID,4,OBJECTID
+Infrastructure,FC_Hospitals_WS,Shape,Geometry,0,Shape
+Infrastructure,FC_Hospitals_WS,PERMANENT_,Text,40,PERMANENT_
+Infrastructure,FC_Hospitals_WS,SOURCE_FEA,Text,40,SOURCE_FEA
+Infrastructure,FC_Hospitals_WS,SOURCE_DAT,Text,40,SOURCE_DAT
+Infrastructure,FC_Hospitals_WS,SOURCE_D_1,Text,100,SOURCE_D_1
+Infrastructure,FC_Hospitals_WS,SOURCE_ORI,Text,130,SOURCE_ORI
+Infrastructure,FC_Hospitals_WS,DATA_SECUR,Long,4,DATA_SECUR
+Infrastructure,FC_Hospitals_WS,DISTRIBUTI,Text,4,DISTRIBUTI
+Infrastructure,FC_Hospitals_WS,LOADDATE,Date,8,LOADDATE
+Infrastructure,FC_Hospitals_WS,FTYPE,Long,4,FTYPE
+Infrastructure,FC_Hospitals_WS,FCODE,Long,4,FCODE
+Infrastructure,FC_Hospitals_WS,NAME,Text,100,NAME
+Infrastructure,FC_Hospitals_WS,ISLANDMARK,Long,4,ISLANDMARK
+Infrastructure,FC_Hospitals_WS,POINTLOCAT,Long,4,POINTLOCAT
+Infrastructure,FC_Hospitals_WS,ADMINTYPE,Long,4,ADMINTYPE
+Infrastructure,FC_Hospitals_WS,ADDRESSBUI,Text,60,ADDRESSBUI
+Infrastructure,FC_Hospitals_WS,ADDRESS,Text,75,ADDRESS
+Infrastructure,FC_Hospitals_WS,CITY,Text,40,CITY
+Infrastructure,FC_Hospitals_WS,STATE,Text,2,STATE
+Infrastructure,FC_Hospitals_WS,ZIPCODE,Text,10,ZIPCODE
+Infrastructure,FC_Hospitals_WS,GNIS_ID,Text,10,GNIS_ID
+Infrastructure,FC_Hospitals_WS,FOOT_ID,Text,40,FOOT_ID
+Infrastructure,FC_Hospitals_WS,COMPLEX_ID,Text,40,COMPLEX_ID
+Infrastructure,FC_Hospitals_WS,GLOBALID,Text,38,GLOBALID
+Infrastructure,FC_Hospitals_WS,FAC_TYPE,Text,20,Facility Type
+Infrastructure,FC_Hospitals_WS,FAC_NAME,Text,100,Facility Name
+Infrastructure,FC_Hospitals_WS,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+Infrastructure,FC_Hospitals_WS,DEPTH_100YR,Double,8,Flood Depth 100-Year (ft)
+Infrastructure,FC_Hospitals_WS,HAZARD_CLASS,Text,20,Hazard Classification
+Infrastructure,FC_Hospitals_WS,PRIORITY,Text,20,Mitigation Priority
+Infrastructure,FC_FireStations_WS,OBJECTID,ObjectID,4,OBJECTID
+Infrastructure,FC_FireStations_WS,Shape,Geometry,0,Shape
+Infrastructure,FC_FireStations_WS,PERMANENT_,Text,40,PERMANENT_
+Infrastructure,FC_FireStations_WS,SOURCE_FEA,Text,40,SOURCE_FEA
+Infrastructure,FC_FireStations_WS,SOURCE_DAT,Text,40,SOURCE_DAT
+Infrastructure,FC_FireStations_WS,SOURCE_D_1,Text,100,SOURCE_D_1
+Infrastructure,FC_FireStations_WS,SOURCE_ORI,Text,130,SOURCE_ORI
+Infrastructure,FC_FireStations_WS,DATA_SECUR,Long,4,DATA_SECUR
+Infrastructure,FC_FireStations_WS,DISTRIBUTI,Text,4,DISTRIBUTI
+Infrastructure,FC_FireStations_WS,LOADDATE,Date,8,LOADDATE
+Infrastructure,FC_FireStations_WS,FTYPE,Long,4,FTYPE
+Infrastructure,FC_FireStations_WS,FCODE,Long,4,FCODE
+Infrastructure,FC_FireStations_WS,NAME,Text,100,NAME
+Infrastructure,FC_FireStations_WS,ISLANDMARK,Long,4,ISLANDMARK
+Infrastructure,FC_FireStations_WS,POINTLOCAT,Long,4,POINTLOCAT
+Infrastructure,FC_FireStations_WS,ADMINTYPE,Long,4,ADMINTYPE
+Infrastructure,FC_FireStations_WS,ADDRESSBUI,Text,60,ADDRESSBUI
+Infrastructure,FC_FireStations_WS,ADDRESS,Text,75,ADDRESS
+Infrastructure,FC_FireStations_WS,CITY,Text,40,CITY
+Infrastructure,FC_FireStations_WS,STATE,Text,2,STATE
+Infrastructure,FC_FireStations_WS,ZIPCODE,Text,10,ZIPCODE
+Infrastructure,FC_FireStations_WS,GNIS_ID,Text,10,GNIS_ID
+Infrastructure,FC_FireStations_WS,FOOT_ID,Text,40,FOOT_ID
+Infrastructure,FC_FireStations_WS,COMPLEX_ID,Text,40,COMPLEX_ID
+Infrastructure,FC_FireStations_WS,GLOBALID,Text,38,GLOBALID
+Infrastructure,FC_FireStations_WS,FAC_TYPE,Text,20,Facility Type
+Infrastructure,FC_FireStations_WS,FAC_NAME,Text,100,Facility Name
+Infrastructure,FC_FireStations_WS,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+Infrastructure,FC_FireStations_WS,DEPTH_100YR,Double,8,Flood Depth 100-Year (ft)
+Infrastructure,FC_FireStations_WS,HAZARD_CLASS,Text,20,Hazard Classification
+Infrastructure,FC_FireStations_WS,PRIORITY,Text,20,Mitigation Priority
+Infrastructure,FC_PoliceStations_WS,OBJECTID,ObjectID,4,OBJECTID
+Infrastructure,FC_PoliceStations_WS,Shape,Geometry,0,Shape
+Infrastructure,FC_PoliceStations_WS,PERMANENT_,Text,40,PERMANENT_
+Infrastructure,FC_PoliceStations_WS,SOURCE_FEA,Text,40,SOURCE_FEA
+Infrastructure,FC_PoliceStations_WS,SOURCE_DAT,Text,40,SOURCE_DAT
+Infrastructure,FC_PoliceStations_WS,SOURCE_D_1,Text,100,SOURCE_D_1
+Infrastructure,FC_PoliceStations_WS,SOURCE_ORI,Text,130,SOURCE_ORI
+Infrastructure,FC_PoliceStations_WS,DATA_SECUR,Long,4,DATA_SECUR
+Infrastructure,FC_PoliceStations_WS,DISTRIBUTI,Text,4,DISTRIBUTI
+Infrastructure,FC_PoliceStations_WS,LOADDATE,Date,8,LOADDATE
+Infrastructure,FC_PoliceStations_WS,FTYPE,Long,4,FTYPE
+Infrastructure,FC_PoliceStations_WS,FCODE,Long,4,FCODE
+Infrastructure,FC_PoliceStations_WS,NAME,Text,100,NAME
+Infrastructure,FC_PoliceStations_WS,ISLANDMARK,Long,4,ISLANDMARK
+Infrastructure,FC_PoliceStations_WS,POINTLOCAT,Long,4,POINTLOCAT
+Infrastructure,FC_PoliceStations_WS,ADMINTYPE,Long,4,ADMINTYPE
+Infrastructure,FC_PoliceStations_WS,ADDRESSBUI,Text,60,ADDRESSBUI
+Infrastructure,FC_PoliceStations_WS,ADDRESS,Text,75,ADDRESS
+Infrastructure,FC_PoliceStations_WS,CITY,Text,40,CITY
+Infrastructure,FC_PoliceStations_WS,STATE,Text,2,STATE
+Infrastructure,FC_PoliceStations_WS,ZIPCODE,Text,10,ZIPCODE
+Infrastructure,FC_PoliceStations_WS,GNIS_ID,Text,10,GNIS_ID
+Infrastructure,FC_PoliceStations_WS,FOOT_ID,Text,40,FOOT_ID
+Infrastructure,FC_PoliceStations_WS,COMPLEX_ID,Text,40,COMPLEX_ID
+Infrastructure,FC_PoliceStations_WS,GLOBALID,Text,38,GLOBALID
+Infrastructure,FC_PoliceStations_WS,FAC_TYPE,Text,20,Facility Type
+Infrastructure,FC_PoliceStations_WS,FAC_NAME,Text,100,Facility Name
+Infrastructure,FC_PoliceStations_WS,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+Infrastructure,FC_PoliceStations_WS,DEPTH_100YR,Double,8,Flood Depth 100-Year (ft)
+Infrastructure,FC_PoliceStations_WS,HAZARD_CLASS,Text,20,Hazard Classification
+Infrastructure,FC_PoliceStations_WS,PRIORITY,Text,20,Mitigation Priority
+Infrastructure,FC_Schools_WS,OBJECTID,ObjectID,4,OBJECTID
+Infrastructure,FC_Schools_WS,Shape,Geometry,0,Shape
+Infrastructure,FC_Schools_WS,NCESSCH,Text,12,NCESSCH
+Infrastructure,FC_Schools_WS,LEAID,Text,7,LEAID
+Infrastructure,FC_Schools_WS,NAME,Text,60,NAME
+Infrastructure,FC_Schools_WS,OPSTFIPS,Text,2,OPSTFIPS
+Infrastructure,FC_Schools_WS,STREET,Text,60,STREET
+Infrastructure,FC_Schools_WS,CITY,Text,30,CITY
+Infrastructure,FC_Schools_WS,STATE,Text,2,STATE
+Infrastructure,FC_Schools_WS,ZIP,Text,5,ZIP
+Infrastructure,FC_Schools_WS,STFIP,Text,2,STFIP
+Infrastructure,FC_Schools_WS,CNTY,Text,5,CNTY
+Infrastructure,FC_Schools_WS,NMCNTY,Text,100,NMCNTY
+Infrastructure,FC_Schools_WS,LOCALE,Text,2,LOCALE
+Infrastructure,FC_Schools_WS,LAT,Double,8,LAT
+Infrastructure,FC_Schools_WS,LON,Double,8,LON
+Infrastructure,FC_Schools_WS,CBSA,Text,5,CBSA
+Infrastructure,FC_Schools_WS,NMCBSA,Text,100,NMCBSA
+Infrastructure,FC_Schools_WS,CBSATYPE,Text,1,CBSATYPE
+Infrastructure,FC_Schools_WS,CSA,Text,3,CSA
+Infrastructure,FC_Schools_WS,NMCSA,Text,100,NMCSA
+Infrastructure,FC_Schools_WS,CD,Text,4,CD
+Infrastructure,FC_Schools_WS,SLDL,Text,5,SLDL
+Infrastructure,FC_Schools_WS,SLDU,Text,5,SLDU
+Infrastructure,FC_Schools_WS,SCHOOLYEAR,Text,9,SCHOOLYEAR
+Infrastructure,FC_Schools_WS,FAC_TYPE,Text,20,Facility Type
+Infrastructure,FC_Schools_WS,FAC_NAME,Text,100,Facility Name
+Infrastructure,FC_Schools_WS,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+Infrastructure,FC_Schools_WS,DEPTH_100YR,Double,8,Flood Depth 100-Year (ft)
+Infrastructure,FC_Schools_WS,HAZARD_CLASS,Text,20,Hazard Classification
+Infrastructure,FC_Schools_WS,PRIORITY,Text,20,Mitigation Priority
+Demographics,FC_BlockGroups,OBJECTID,ObjectID,4,OBJECTID
+Demographics,FC_BlockGroups,Shape,Geometry,0,Shape
+Demographics,FC_BlockGroups,STATE_ABBR,Text,2,STATE_ABBR
+Demographics,FC_BlockGroups,STATE_FIPS,Text,2,STATE_FIPS
+Demographics,FC_BlockGroups,COUNTY_FIP,Text,3,COUNTY_FIP
+Demographics,FC_BlockGroups,STCOFIPS,Text,5,STCOFIPS
+Demographics,FC_BlockGroups,TRACT_FIPS,Text,6,TRACT_FIPS
+Demographics,FC_BlockGroups,BLOCKGROUP,Text,1,BLOCKGROUP
+Demographics,FC_BlockGroups,FIPS,Text,12,FIPS
+Demographics,FC_BlockGroups,POPULATION,Long,4,POPULATION
+Demographics,FC_BlockGroups,POP_SQMI,Double,8,POP_SQMI
+Demographics,FC_BlockGroups,SQMI,Double,8,SQMI
+Demographics,FC_BlockGroups,POPULATI_1,Long,4,POPULATI_1
+Demographics,FC_BlockGroups,POP20_SQMI,Double,8,POP20_SQMI
+Demographics,FC_BlockGroups,Shape__Are,Double,8,Shape__Are
+Demographics,FC_BlockGroups,Shape__Len,Double,8,Shape__Len
+Demographics,FC_BlockGroups,Shape_Length,Double,8,Shape_Length
+Demographics,FC_BlockGroups,Shape_Area,Double,8,Shape_Area
+Demographics,FC_BlockGroups,GEOID,Text,20,Census GEOID
+Demographics,FC_BlockGroups,TRACT_GEOID,Text,11,Parent Tract GEOID
+Demographics,FC_BlockGroups,POP_TOTAL,Long,4,Total Population
+Demographics,FC_BlockGroups,HU_TOTAL,Long,4,Total Housing Units
+Demographics,FC_BlockGroups,PCT_POVERTY,Double,8,Percent Below Poverty
+Demographics,FC_BlockGroups,MED_INC,Double,8,Median Household Income
+Demographics,FC_BlockGroups,PCT_NO_VEH,Double,8,Percent No Vehicle
+Demographics,FC_BlockGroups,PCT_65PLUS,Double,8,Percent Age 65+
+Demographics,FC_BlockGroups,SVI_SCORE,Double,8,Social Vulnerability Index
+Demographics,FC_BlockGroups,SVI_CLASS,Text,20,SVI Classification
+Demographics,FC_BlockGroups,POP_EXPOSED,Double,8,Estimated Population Exposed
+Demographics,FC_BlockGroups,HU_EXPOSED,Double,8,Estimated Housing Units Exposed
+Demographics,FC_BlockGroups,FLOOD_AREA_PCT,Double,8,Percent Area Flooded
+Demographics,FC_BlockGroups,TOTAL_AREA,Double,8,Total Block Group Area (sq ft)
+Demographics,FC_BlockGroups_WS,OBJECTID,ObjectID,4,OBJECTID
+Demographics,FC_BlockGroups_WS,Shape,Geometry,0,Shape
+Demographics,FC_BlockGroups_WS,STATE_ABBR,Text,2,STATE_ABBR
+Demographics,FC_BlockGroups_WS,STATE_FIPS,Text,2,STATE_FIPS
+Demographics,FC_BlockGroups_WS,COUNTY_FIP,Text,3,COUNTY_FIP
+Demographics,FC_BlockGroups_WS,STCOFIPS,Text,5,STCOFIPS
+Demographics,FC_BlockGroups_WS,TRACT_FIPS,Text,6,TRACT_FIPS
+Demographics,FC_BlockGroups_WS,BLOCKGROUP,Text,1,BLOCKGROUP
+Demographics,FC_BlockGroups_WS,FIPS,Text,12,FIPS
+Demographics,FC_BlockGroups_WS,POPULATION,Long,4,POPULATION
+Demographics,FC_BlockGroups_WS,POP_SQMI,Double,8,POP_SQMI
+Demographics,FC_BlockGroups_WS,SQMI,Double,8,SQMI
+Demographics,FC_BlockGroups_WS,POPULATI_1,Long,4,POPULATI_1
+Demographics,FC_BlockGroups_WS,POP20_SQMI,Double,8,POP20_SQMI
+Demographics,FC_BlockGroups_WS,Shape__Are,Double,8,Shape__Are
+Demographics,FC_BlockGroups_WS,Shape__Len,Double,8,Shape__Len
+Demographics,FC_BlockGroups_WS,GEOID,Text,20,Census GEOID
+Demographics,FC_BlockGroups_WS,TRACT_GEOID,Text,11,Parent Tract GEOID
+Demographics,FC_BlockGroups_WS,POP_TOTAL,Long,4,Total Population
+Demographics,FC_BlockGroups_WS,HU_TOTAL,Long,4,Total Housing Units
+Demographics,FC_BlockGroups_WS,PCT_POVERTY,Double,8,Percent Below Poverty
+Demographics,FC_BlockGroups_WS,MED_INC,Double,8,Median Household Income
+Demographics,FC_BlockGroups_WS,PCT_NO_VEH,Double,8,Percent No Vehicle
+Demographics,FC_BlockGroups_WS,PCT_65PLUS,Double,8,Percent Age 65+
+Demographics,FC_BlockGroups_WS,SVI_SCORE,Double,8,Social Vulnerability Index
+Demographics,FC_BlockGroups_WS,SVI_CLASS,Text,20,SVI Classification
+Demographics,FC_BlockGroups_WS,POP_EXPOSED,Double,8,Estimated Population Exposed
+Demographics,FC_BlockGroups_WS,HU_EXPOSED,Double,8,Estimated Housing Units Exposed
+Demographics,FC_BlockGroups_WS,FLOOD_AREA_PCT,Double,8,Percent Area Flooded
+Demographics,FC_BlockGroups_WS,TOTAL_AREA,Double,8,Total Block Group Area (sq ft)
+Demographics,FC_BlockGroups_WS,Shape_Length,Double,8,Shape_Length
+Demographics,FC_BlockGroups_WS,Shape_Area,Double,8,Shape_Area
+FloodHazards,FC_FEMA_FloodZones,OBJECTID,ObjectID,4,OBJECTID
+FloodHazards,FC_FEMA_FloodZones,Shape,Geometry,0,Shape
+FloodHazards,FC_FEMA_FloodZones,DFIRM_ID,Text,6,DFIRM_ID
+FloodHazards,FC_FEMA_FloodZones,VERSION_ID,Text,11,VERSION_ID
+FloodHazards,FC_FEMA_FloodZones,FLD_AR_ID,Text,32,FLD_AR_ID
+FloodHazards,FC_FEMA_FloodZones,STUDY_TYP,Text,38,STUDY_TYP
+FloodHazards,FC_FEMA_FloodZones,FLD_ZONE,Text,17,FLD_ZONE
+FloodHazards,FC_FEMA_FloodZones,ZONE_SUBTY,Text,76,ZONE_SUBTY
+FloodHazards,FC_FEMA_FloodZones,SFHA_TF,Text,1,SFHA_TF
+FloodHazards,FC_FEMA_FloodZones,STATIC_BFE,Double,8,STATIC_BFE
+FloodHazards,FC_FEMA_FloodZones,V_DATUM,Text,17,V_DATUM
+FloodHazards,FC_FEMA_FloodZones,DEPTH,Double,8,DEPTH
+FloodHazards,FC_FEMA_FloodZones,LEN_UNIT,Text,16,LEN_UNIT
+FloodHazards,FC_FEMA_FloodZones,VELOCITY,Double,8,VELOCITY
+FloodHazards,FC_FEMA_FloodZones,VEL_UNIT,Text,20,VEL_UNIT
+FloodHazards,FC_FEMA_FloodZones,AR_REVERT,Text,17,AR_REVERT
+FloodHazards,FC_FEMA_FloodZones,AR_SUBTRV,Text,57,AR_SUBTRV
+FloodHazards,FC_FEMA_FloodZones,BFE_REVERT,Double,8,BFE_REVERT
+FloodHazards,FC_FEMA_FloodZones,DEP_REVERT,Double,8,DEP_REVERT
+FloodHazards,FC_FEMA_FloodZones,DUAL_ZONE,Text,1,DUAL_ZONE
+FloodHazards,FC_FEMA_FloodZones,SOURCE_CIT,Text,21,SOURCE_CIT
+FloodHazards,FC_FEMA_FloodZones,GFID,Text,36,GFID
+FloodHazards,FC_FEMA_FloodZones,SHAPE_Leng,Double,8,SHAPE_Leng
+FloodHazards,FC_FEMA_FloodZones,Shape_Length,Double,8,Shape_Length
+FloodHazards,FC_FEMA_FloodZones,Shape_Area,Double,8,Shape_Area
+FloodHazards,FC_FEMA_FloodZones_WS,OBJECTID,ObjectID,4,OBJECTID
+FloodHazards,FC_FEMA_FloodZones_WS,Shape,Geometry,0,Shape
+FloodHazards,FC_FEMA_FloodZones_WS,DFIRM_ID,Text,6,DFIRM_ID
+FloodHazards,FC_FEMA_FloodZones_WS,VERSION_ID,Text,11,VERSION_ID
+FloodHazards,FC_FEMA_FloodZones_WS,FLD_AR_ID,Text,32,FLD_AR_ID
+FloodHazards,FC_FEMA_FloodZones_WS,STUDY_TYP,Text,38,STUDY_TYP
+FloodHazards,FC_FEMA_FloodZones_WS,FLD_ZONE,Text,17,FLD_ZONE
+FloodHazards,FC_FEMA_FloodZones_WS,ZONE_SUBTY,Text,76,ZONE_SUBTY
+FloodHazards,FC_FEMA_FloodZones_WS,SFHA_TF,Text,1,SFHA_TF
+FloodHazards,FC_FEMA_FloodZones_WS,STATIC_BFE,Double,8,STATIC_BFE
+FloodHazards,FC_FEMA_FloodZones_WS,V_DATUM,Text,17,V_DATUM
+FloodHazards,FC_FEMA_FloodZones_WS,DEPTH,Double,8,DEPTH
+FloodHazards,FC_FEMA_FloodZones_WS,LEN_UNIT,Text,16,LEN_UNIT
+FloodHazards,FC_FEMA_FloodZones_WS,VELOCITY,Double,8,VELOCITY
+FloodHazards,FC_FEMA_FloodZones_WS,VEL_UNIT,Text,20,VEL_UNIT
+FloodHazards,FC_FEMA_FloodZones_WS,AR_REVERT,Text,17,AR_REVERT
+FloodHazards,FC_FEMA_FloodZones_WS,AR_SUBTRV,Text,57,AR_SUBTRV
+FloodHazards,FC_FEMA_FloodZones_WS,BFE_REVERT,Double,8,BFE_REVERT
+FloodHazards,FC_FEMA_FloodZones_WS,DEP_REVERT,Double,8,DEP_REVERT
+FloodHazards,FC_FEMA_FloodZones_WS,DUAL_ZONE,Text,1,DUAL_ZONE
+FloodHazards,FC_FEMA_FloodZones_WS,SOURCE_CIT,Text,21,SOURCE_CIT
+FloodHazards,FC_FEMA_FloodZones_WS,GFID,Text,36,GFID
+FloodHazards,FC_FEMA_FloodZones_WS,SHAPE_Leng,Double,8,SHAPE_Leng
+FloodHazards,FC_FEMA_FloodZones_WS,Shape_Length,Double,8,Shape_Length
+FloodHazards,FC_FEMA_FloodZones_WS,Shape_Area,Double,8,Shape_Area
+FloodHazards,FC_FEMA_FloodZones_WS,AREA_ACRES,Double,8,AREA_ACRES
+FloodHazards,FloodExtent_10yr,OBJECTID,ObjectID,4,OBJECTID
+FloodHazards,FloodExtent_10yr,Shape,Geometry,0,Shape
+FloodHazards,FloodExtent_10yr,Id,Long,4,Id
+FloodHazards,FloodExtent_10yr,gridcode,Long,4,gridcode
+FloodHazards,FloodExtent_10yr,Shape_Length,Double,8,Shape_Length
+FloodHazards,FloodExtent_10yr,Shape_Area,Double,8,Shape_Area
+FloodHazards,FloodExtent_10yr,FLOOD_EVENT,Text,20,FLOOD_EVENT
+FloodHazards,FloodExtent_10yr,AREA_ACRES,Double,8,AREA_ACRES
+FloodHazards,FloodExtent_50yr,OBJECTID,ObjectID,4,OBJECTID
+FloodHazards,FloodExtent_50yr,Shape,Geometry,0,Shape
+FloodHazards,FloodExtent_50yr,Id,Long,4,Id
+FloodHazards,FloodExtent_50yr,gridcode,Long,4,gridcode
+FloodHazards,FloodExtent_50yr,Shape_Length,Double,8,Shape_Length
+FloodHazards,FloodExtent_50yr,Shape_Area,Double,8,Shape_Area
+FloodHazards,FloodExtent_50yr,FLOOD_EVENT,Text,20,FLOOD_EVENT
+FloodHazards,FloodExtent_50yr,AREA_ACRES,Double,8,AREA_ACRES
+FloodHazards,FloodExtent_100yr,OBJECTID,ObjectID,4,OBJECTID
+FloodHazards,FloodExtent_100yr,Shape,Geometry,0,Shape
+FloodHazards,FloodExtent_100yr,Id,Long,4,Id
+FloodHazards,FloodExtent_100yr,gridcode,Long,4,gridcode
+FloodHazards,FloodExtent_100yr,Shape_Length,Double,8,Shape_Length
+FloodHazards,FloodExtent_100yr,Shape_Area,Double,8,Shape_Area
+FloodHazards,FloodExtent_100yr,FLOOD_EVENT,Text,20,FLOOD_EVENT
+FloodHazards,FloodExtent_100yr,AREA_ACRES,Double,8,AREA_ACRES
+FloodHazards,FloodExtent_500yr,OBJECTID,ObjectID,4,OBJECTID
+FloodHazards,FloodExtent_500yr,Shape,Geometry,0,Shape
+FloodHazards,FloodExtent_500yr,Id,Long,4,Id
+FloodHazards,FloodExtent_500yr,gridcode,Long,4,gridcode
+FloodHazards,FloodExtent_500yr,Shape_Length,Double,8,Shape_Length
+FloodHazards,FloodExtent_500yr,Shape_Area,Double,8,Shape_Area
+FloodHazards,FloodExtent_500yr,FLOOD_EVENT,Text,20,FLOOD_EVENT
+FloodHazards,FloodExtent_500yr,AREA_ACRES,Double,8,AREA_ACRES
+FloodHazards,FloodExtent_100yr_Dissolved,OBJECTID,ObjectID,4,OBJECTID
+FloodHazards,FloodExtent_100yr_Dissolved,Shape,Geometry,0,Shape
+FloodHazards,FloodExtent_100yr_Dissolved,Shape_Length,Double,8,Shape_Length
+FloodHazards,FloodExtent_100yr_Dissolved,Shape_Area,Double,8,Shape_Area
+Analysis,PourPoint,OBJECTID,ObjectID,4,OBJECTID
+Analysis,PourPoint,Shape,Geometry,0,Shape
+Analysis,PourPoint,Name,Text,50,Name
+Analysis,FC_Watershed_Boundary,OBJECTID,ObjectID,4,OBJECTID
+Analysis,FC_Watershed_Boundary,Shape,Geometry,0,Shape
+Analysis,FC_Watershed_Boundary,Id,Long,4,Id
+Analysis,FC_Watershed_Boundary,gridcode,Long,4,gridcode
+Analysis,FC_Watershed_Boundary,AREA_ACRES,Double,8,AREA_ACRES
+Analysis,FC_Watershed_Boundary,Shape_Length,Double,8,Shape_Length
+Analysis,FC_Watershed_Boundary,Shape_Area,Double,8,Shape_Area
+Analysis,Roads_Flooded_100yr,OBJECTID,ObjectID,4,OBJECTID
+Analysis,Roads_Flooded_100yr,Shape,Geometry,0,Shape
+Analysis,Roads_Flooded_100yr,FID_FC_Roads_WS,Long,4,FID_FC_Roads_WS
+Analysis,Roads_Flooded_100yr,LINEARID,Text,22,LINEARID
+Analysis,Roads_Flooded_100yr,FULLNAME,Text,100,FULLNAME
+Analysis,Roads_Flooded_100yr,RTTYP,Text,1,RTTYP
+Analysis,Roads_Flooded_100yr,MTFCC,Text,5,MTFCC
+Analysis,Roads_Flooded_100yr,ROAD_CLASS,Text,20,Road Classification
+Analysis,Roads_Flooded_100yr,LENGTH_FT,Double,8,Length (feet)
+Analysis,Roads_Flooded_100yr,LENGTH_MI,Double,8,Length (miles)
+Analysis,Roads_Flooded_100yr,EXPOSED_100YR,Text,20,Exposed 100-Year Flood
+Analysis,Roads_Flooded_100yr,FLOOD_DEPTH,Double,8,Max Flood Depth (ft)
+Analysis,Roads_Flooded_100yr,FID_FloodExtent_100yr,Long,4,FID_FloodExtent_100yr
+Analysis,Roads_Flooded_100yr,Id,Long,4,Id
+Analysis,Roads_Flooded_100yr,gridcode,Long,4,gridcode
+Analysis,Roads_Flooded_100yr,FLOOD_EVENT,Text,20,FLOOD_EVENT
+Analysis,Roads_Flooded_100yr,AREA_ACRES,Double,8,AREA_ACRES
+Analysis,Roads_Flooded_100yr,Shape_Length,Double,8,Shape_Length
+Analysis,Roads_Flooded_100yr,FLOOD_LEN_FT,Double,8,FLOOD_LEN_FT
+Analysis,FloodHazard_Polygons_100yr,OBJECTID,ObjectID,4,OBJECTID
+Analysis,FloodHazard_Polygons_100yr,Shape,Geometry,0,Shape
+Analysis,FloodHazard_Polygons_100yr,Id,Long,4,Id
+Analysis,FloodHazard_Polygons_100yr,gridcode,Long,4,gridcode
+Analysis,FloodHazard_Polygons_100yr,Shape_Length,Double,8,Shape_Length
+Analysis,FloodHazard_Polygons_100yr,Shape_Area,Double,8,Shape_Area
+Analysis,FloodHazard_Polygons_100yr,HAZARD_CLASS,Text,20,HAZARD_CLASS
+Analysis,MitigationPriority_Polygons,OBJECTID,ObjectID,4,OBJECTID
+Analysis,MitigationPriority_Polygons,Shape,Geometry,0,Shape
+Analysis,MitigationPriority_Polygons,Id,Long,4,Id
+Analysis,MitigationPriority_Polygons,gridcode,Long,4,gridcode
+Analysis,MitigationPriority_Polygons,Shape_Length,Double,8,Shape_Length
+Analysis,MitigationPriority_Polygons,Shape_Area,Double,8,Shape_Area
+Analysis,MitigationPriority_Polygons,PRIORITY,Text,20,PRIORITY
+Analysis,MitigationPriority_Polygons,PRIORITY_LABEL,Text,40,PRIORITY_LABEL
+Analysis,MitigationPriority_Polygons,AREA_ACRES,Double,8,AREA_ACRES

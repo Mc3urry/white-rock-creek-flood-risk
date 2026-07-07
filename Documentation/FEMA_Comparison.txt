@@ -1,0 +1,5 @@
+FEMA vs Modeled Floodplain Comparison
+========================================
+FEMA 100-yr (AE): 6177.3 acres
+Modeled 100-yr:   13479.5 acres
+Difference:       7302.2 acres (118.2%)

@@ -1,0 +1,34 @@
+WHITE ROCK FLOOD RISK PROJECT
+Data Load Report
+==================================================
+
+Dataset: BaseData
+  FC_Buildings: 731757 features | Point | NAD_1983_StatePlane_Texas_North_Central_FIPS_4202_Feet
+
+Dataset: Hydrology
+  FC_Streams: 2226 features | Polyline | NAD_1983_StatePlane_Texas_North_Central_FIPS_4202_Feet
+  FC_Waterbodies: 2651 features | Polygon | NAD_1983_StatePlane_Texas_North_Central_FIPS_4202_Feet
+
+Dataset: Infrastructure
+  FC_Roads: 40455 features | Polyline | NAD_1983_StatePlane_Texas_North_Central_FIPS_4202_Feet
+  FC_Hospitals: 43 features | Point | NAD_1983_StatePlane_Texas_North_Central_FIPS_4202_Feet
+  FC_FireStations: 132 features | Point | NAD_1983_StatePlane_Texas_North_Central_FIPS_4202_Feet
+  FC_PoliceStations: 47 features | Point | NAD_1983_StatePlane_Texas_North_Central_FIPS_4202_Feet
+  FC_Schools: 765 features | Point | NAD_1983_StatePlane_Texas_North_Central_FIPS_4202_Feet
+
+Dataset: FloodHazards
+  FC_FEMA_FloodZones: 13525 features | Polygon | NAD_1983_StatePlane_Texas_North_Central_FIPS_4202_Feet
+
+Dataset: Demographics
+  FC_BlockGroups: 1570 features | Polygon | NAD_1983_StatePlane_Texas_North_Central_FIPS_4202_Feet
+
+Rasters in BaseData/
+  DEM_Raw.tif: present
+  DEM_Projected.tif: present
+  DEM_Clipped.tif: present
+  NLCD_LandCover.tif: present
+  NLCD_LandCover_Proj.tif: present
+  NLCD_LandCover_Clipped.tif: present
+  NLCD_Impervious.tif: present
+  NLCD_Impervious_Proj.tif: present
+  NLCD_Impervious_Clipped.tif: present
